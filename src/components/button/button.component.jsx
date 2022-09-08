@@ -1,4 +1,4 @@
-// We have 3 types of buttons invert, defaults, sign-in as google button
+// We have 3 types of buttons invert, defaults, authentication as google button
 import './button.styles.scss'
 const BUTTON_TYPES_CLASSES = {
     google: 'google-sign-in',
