@@ -10,8 +10,8 @@ const DirectoryItem = ({ category }) => {
   const navigate = useNavigate()
     const onNavigateHandler = () => navigate(route)
   return (
-    <DirectoryItemContainer>
-      <BackgroundImage onClick={onNavigateHandler} imageUrl={imageUrl} />
+    <DirectoryItemContainer onClick={onNavigateHandler} >
+      <BackgroundImage imageUrl={imageUrl} />
       <Body>
         <h2>{title}</h2>
         <p><Link to={`${route}`}>Shop Now</Link></p>
