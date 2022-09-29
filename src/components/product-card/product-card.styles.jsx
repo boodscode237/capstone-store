@@ -7,12 +7,19 @@ export const ProductCartContainer = styled.div`
   height: 350px;
   align-items: center;
   position: relative;
+  background: rgba( 213, 175, 175, 0.5 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 13px );
+  -webkit-backdrop-filter: blur( 13px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 
   img {
     width: 100%;
     height: 95%;
     object-fit: cover;
     margin-bottom: 5px;
+    border-radius: 10px;
   }
 
   button {
@@ -39,8 +46,9 @@ export const Footer = styled.div`
   width: 100%;
   height: 5%;
   display: flex;
-  justify-content: space-between;
-  font-size: 18px;
+  justify-content: space-evenly;
+  font-size: 16px;
+  font-weight: bolder;
 `;
 
 export const Name = styled.span`

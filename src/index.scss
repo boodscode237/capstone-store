@@ -1,3 +1,6 @@
+* {
+  //background-color: rgb(215, 190, 206);
+}
 body {
   margin: 0;
   font-family: 'Nunito Sans',
@@ -5,6 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 20px 40px;
+  background-color: rgb(215, 190, 206);
 }
 
 code {
